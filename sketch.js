@@ -25,8 +25,8 @@ function setup() {
 function draw() {
   background(bgImg);  
   drawSprites();
-  console.log(spaceCraft.x);
-  console.log(spaceCraft.y);
+  //console.log(spaceCraft.x);
+  //console.log(spaceCraft.y);
   if (!hasDocked){
     if (keyIsDown(LEFT_ARROW)){
       spaceCraft.addImage(spaceCraftImg4);
